@@ -4,9 +4,108 @@
     <title>Link in Bio</title>
     <meta name="description" content="Link in Bio Module">
     <meta name="keywords" content="link">
+
+    <style>
+      body {
+        margin: 50px;
+        padding: 25px;
+      } 
+      header {
+        display: flex;
+        justify-content: center;
+      }
+      
+      header img {
+        weight: 250px;
+        height: 250px;
+        border-radius: 100%;
+      }
+
+      .social-media-wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 16px;
+        padding: 8px;
+      }
+
+      .social-media-icon {
+        margin: 0 10px;
+      }
+
+      /* Links */
+      .links {
+        display: flex;
+        justify-content: center;
+      }
+
+      .links-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+        background-color: #F5F5F5;
+      }
+
+      .link-item {
+        display: flex;
+        margin-bottom: 16px;
+        align-items: center;
+      }
+
+      .link-item img {
+        width: 50px;
+        height: 50px;
+      }
+
+      .link-item a {
+        margin-left: 20px;
+      }
+    </style>
   </head>
 
   <body>
-    My link in bio
+    <header>
+      <img src="/images/profile-pic.png" alt="Profile picture">
+    </header>
+
+    <div class="social-media-wrapper">
+      <span class="social-media-icon">
+        <a href="https://discord.com" target="_blank">
+          <img src="/images/discord.png" alt="discord">
+        </a>
+      </span>
+      <span class="social-media-icon">
+        <a href="https://facebook.com" target="_blank">
+          <img src="/images/facebook.png" alt="facebook">
+        </a>
+      </span>
+      <span class="social-media-icon">
+        <a href="https://github.com/akincampbell" target="_blank">
+          <img src="/images/github.png" alt="github">
+        </a>
+      </span>
+      <span class="social-media-icon">
+        <a href="https://linkedin/in/AkinCampbell.com" target="_blank">
+          <img src="/images/linkedin.png" alt="linkedin">
+        </a>
+      </span>
+    </div>
+
+    <div class="links">
+      <div class="links-wrapper">
+        <div class="link-item">
+          <img src="images/NintendoSwitchLogo.svg.png">
+          <a href="https://www.nintendo.com/">Website to Nintendo</a>
+        </div>
+        <div class="link-item">
+          <img src="images/xbox-logo.png">
+          <a href="https://www.xbox.com/">Website to Xbox</a>
+        </div>
+        <div class="link-item">
+          <img src="images/playstation-logo.jpeg">
+          <a href="https://www.playstation.com/">Website to Playstation</a>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
